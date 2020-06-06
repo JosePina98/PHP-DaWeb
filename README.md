@@ -20,17 +20,17 @@ features to your application.
 DIRECTORY STRUCTURE
 -------------------
 
-      assets/             contains assets definition
-      commands/           contains console commands (controllers)
-      config/             contains application configurations
-      controllers/        contains Web controller classes
-      mail/               contains view files for e-mails
-      models/             contains model classes
-      runtime/            contains files generated during runtime
-      tests/              contains various tests for the basic application
-      vendor/             contains dependent 3rd-party packages
-      views/              contains view files for the Web application
-      web/                contains the entry script and Web resources
+      assets/             contiene la definición de los assets
+      commands/           contiene los comandos de consola
+      config/             contiene los ficheros de configuración de la aplicación
+      controllers/        contiene las clases de los controladores Web
+      mail/               contiene los ficheros de vistas para emails
+      models/             contiene las clases del modelo
+      runtime/            contiene los ficheros generados en tiempo de ejecución
+      tests/              contiene varios tests para la aplicación básica
+      vendor/             contiene paquetes dependientes de terceros
+      views/              contiene los ficheros de las vistas para la aplicación Web
+      web/                contiene el script de entrada y los recursos Web
 
 
 
