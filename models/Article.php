@@ -7,6 +7,7 @@ use Yii;
 use yii\behaviors\BlameableBehavior;
 use yii\behaviors\SluggableBehavior;
 use yii\behaviors\TimestampBehavior;
+use Yii\helpers\Html;
 
 /**
  * This is the model class for table "article".
@@ -84,5 +85,11 @@ class Article extends \yii\db\ActiveRecord
     public function getCreatedBy()
     {
         return $this->hasOne(User::className(), ['id' => 'created_by']);
+    }
+
+    public function getEncodedBody()
+    {
+       return Html::encode($this->body);
+
     }
 }
